@@ -1,9 +1,13 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
 
 int main(){
     char s[50];
     scanf("%s",s);
     printf("%s\n",s);
+    return 0;
+
+int main(){
+    int a = 0x11223344;
+    int * pa = &a;
+    printf("%x %x\n",a, *pa);
     return 0;
 }
